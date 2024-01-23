@@ -14,6 +14,9 @@
       nav {
         background: linear-gradient(to right, #403031, #474D49);
       }
+      #home-button {
+        color: red; /* or any other color you prefer */
+      }
     </style>
   </head>
   <body>
@@ -31,24 +34,56 @@
         </button>
         <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg"> 
           <ul class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
+            <a href="1-index.html" i="home-button" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white dark:text-white md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+              <i class="fa-solid fa-house"></i> Home
+            </a>                               
             <li>
-              <a href="1-index.html" class="block py-2 px-3 md:p-0 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:dark:text-white dark:bg-white md:dark:bg-transparent" aria-current="page">Home</a>
+              <a href="2-services.html" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white dark:text-white md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"><i class="fa-solid fa-bell"></i> Services</a>
             </li>
             <li>
-              <a href="2-services.html" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white dark:text-white md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+              <a href="3-produits.html" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white dark:text-white md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"><i class="fa-solid fa-cart-shopping"></i> Produits</a>
             </li>
             <li>
-              <a href="3-produits.html" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white dark:text-white md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Produits</a>
+              <a href="4-jeux.html" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white dark:text-white md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"><i class="fa-solid fa-headphones"></i> Nos Jeux</a>
             </li>
             <li>
-              <a href="4-jeux.html" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white dark:text-white md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Nos Jeux</a>
-            </li>
-            <li>
-                <a href="5-about.html" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white dark:text-white md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">A Propos de Nous</a>
+                <a href="5-about.html" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white dark:text-white md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"><i class="fa-solid fa-users"></i> A Propos de Nous</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    <script>
+      function toggleMenu() {
+        var navbar = document.getElementById('navbar-solid-bg');
+        if (navbar.style.display === 'block' || navbar.style.display === '') {
+          navbar.style.display = 'none';
+        } else {
+          navbar.style.display = 'block';
+        }
+      }
+    
+      document.querySelector('[data-collapse-toggle="navbar-solid-bg"]').addEventListener('click', toggleMenu);
+    
+      window.addEventListener('resize', function() {
+        var navbar = document.getElementById('navbar-solid-bg');
+        var toggleButton = document.querySelector('[data-collapse-toggle="navbar-solid-bg"]');
+        
+        if (window.innerWidth >= 768) {
+          navbar.style.display = 'block';
+        } else {
+          navbar.style.display = 'none';
+          toggleButton.setAttribute('aria-expanded', 'false');
+        }
+      });
+    
+      window.addEventListener('load', function() {
+        var navbar = document.getElementById('navbar-solid-bg');
+        
+        if (window.innerWidth < 768) {
+          navbar.style.display = 'none';
+        }
+      });
+    </script>    
   </body>
 </html>
