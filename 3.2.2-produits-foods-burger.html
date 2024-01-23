@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<title>QuantumCafé - Nourritures</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+  $("#header").load("0-header.html"); 
+  $("#footer").load("6-footer.html"); 
+});
+</script> 
+</head>
+<body>
+<div id="header"></div>
+<main>
+  <a href="3.2-produits-foods.html" style="position: absolute; top: 5.5rem; left: 1.5rem; margin: 10px;"><i class="fa-solid fa-arrow-left"></i> Nourritures</a>
+  <div class="bg-white mt-16">
+    <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+      <h2 class="sr-only">FOOD</h2>
+  
+      <div class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+        <a href="#" id="openModalButton" class="group">
+          <div class="h-72 w-full overflow-hidden rounded-lg bg-gray-200">
+            <img src="https://i.pinimg.com/564x/b3/45/32/b34532602da7ec5c0cdcdc683cd41cbe.jpg" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="h-full w-full object-cover object-center group-hover:opacity-75">
+          </div>
+          <h3 class="mt-4 text-sm text-gray-700">Le Clasique + Frite</h3>
+          <p class="mt-1 text-lg font-medium text-gray-900">9.60€</p>
+        </a>
+        <div id="myModal" class="hidden fixed inset-0 overflow-y-auto">
+          <div class="flex items-center justify-center min-h-screen p-4">
+            <div class="relative bg-[#EBDEDE] py-12" style="width: 30rem;">
+              <div class="relative w-full max-w-4xl p-1 mx-auto bg-white border shadow-lg border-white/20 rounded-3xl">
+                <div class="pb-96 rounded-3xl" style="background-image: url('https://i.pinimg.com/564x/b3/45/32/b34532602da7ec5c0cdcdc683cd41cbe.jpg'); background-repeat: no-repeat; background-size: cover; height: 0rem;">
+                  <svg id="closeModalButton" xmlns="http://www.w3.org/2000/svg" class="absolute w-10 h-10 p-2 text-gray-800 bg-gray-300 bg-opacity-50 rounded-full cursor-pointer top-5 right-5 " fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                  <div class="p-8 md:p-12 lg:px-24">
+                    <div class="max-w-lg"></div>
+                  </div>
+                </div>
+                <div class="p-4 mx-6 mb-12 -mt-24 bg-white sm:mx-12 rounded-2xl sm:p-8">
+                  <span class="text-sm">Le Clasique + Frite</span>
+                  <div class="flex items-end justify-between mt-6">
+                    <h1 class="text-6xl font-bold"> 9.60€ <span class="text-xl font-medium"><span class="text-gray-600"></span></span></h1>
+                  </div>
+                  <hr class="my-6">
+                  <button class="px-12 py-4 text-sm font-semibold bg-gray-900 rounded-xl text-gray-50 hover:bg-black">Pay now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#" id="openModalButton1" class="group">
+          <div class="h-72 w-full overflow-hidden rounded-lg bg-gray-200">
+            <img src="https://i.pinimg.com/564x/68/1e/86/681e86f7e50273f77daf2e2ce0c6bf0d.jpg" alt="Olive drab green insulated bottle with flared screw lid and flat top." class="h-full w-full object-cover object-center group-hover:opacity-75">
+          </div>
+          <h3 class="mt-4 text-sm text-gray-700">Bacon Lover + Frite</h3>
+          <p class="mt-1 text-lg font-medium text-gray-900">9.40€</p>
+        </a>
+        <div id="myModal1" class="hidden fixed inset-0 overflow-y-auto">
+          <div class="flex items-center justify-center min-h-screen p-4">
+            <div class="relative bg-[#EBDEDE] py-12" style="width: 30rem;">
+              <div class="relative w-full max-w-4xl p-1 mx-auto bg-white border shadow-lg border-white/20 rounded-3xl">
+                <div class="pb-96 rounded-3xl" style="background-image: url('https://i.pinimg.com/564x/68/1e/86/681e86f7e50273f77daf2e2ce0c6bf0d.jpg'); background-repeat: no-repeat; background-size: cover; height: 0rem;">
+                  <svg id="closeModalButton1" xmlns="http://www.w3.org/2000/svg" class="absolute w-10 h-10 p-2 text-gray-800 bg-gray-300 bg-opacity-50 rounded-full cursor-pointer top-5 right-5 " fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                  <div class="p-8 md:p-12 lg:px-24">
+                    <div class="max-w-lg"></div>
+                  </div>
+                </div>
+                <div class="p-4 mx-6 mb-12 -mt-24 bg-white sm:mx-12 rounded-2xl sm:p-8">
+                  <span class="text-sm">Bacon Lover + Frite</span>
+                  <div class="flex items-end justify-between mt-6">
+                    <h1 class="text-6xl font-bold"> 9.40€ <span class="text-xl font-medium"><span class="text-gray-600"></span></span></h1>
+                  </div>
+                  <hr class="my-6">
+                  <button class="px-12 py-4 text-sm font-semibold bg-gray-900 rounded-xl text-gray-50 hover:bg-black">Pay now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#" id="openModalButton2" class="group">
+          <div class="h-72 w-full overflow-hidden rounded-lg bg-gray-200">
+            <img src="https://i.pinimg.com/564x/76/9d/01/769d0181ce354b62c4e88f623b46a63a.jpg" alt="Person using a pen to cross a task off a productivity paper card." class="h-full w-full object-cover object-center group-hover:opacity-75">
+          </div>
+          <h3 class="mt-4 text-sm text-gray-700">Burger au Poulet + Frite</h3>
+          <p class="mt-1 text-lg font-medium text-gray-900">9.70€</p>
+        </a>
+        <div id="myModal2" class="hidden fixed inset-0 overflow-y-auto">
+          <div class="flex items-center justify-center min-h-screen p-4">
+            <div class="relative bg-[#EBDEDE] py-12" style="width: 30rem;">
+              <div class="relative w-full max-w-4xl p-1 mx-auto bg-white border shadow-lg border-white/20 rounded-3xl">
+                <div class="pb-96 rounded-3xl" style="background-image: url('https://i.pinimg.com/564x/76/9d/01/769d0181ce354b62c4e88f623b46a63a.jpg'); background-repeat: no-repeat; background-size: cover; height: 0rem;">
+                  <svg id="closeModalButton2" xmlns="http://www.w3.org/2000/svg" class="absolute w-10 h-10 p-2 text-gray-800 bg-gray-300 bg-opacity-50 rounded-full cursor-pointer top-5 right-5 " fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                  <div class="p-8 md:p-12 lg:px-24">
+                    <div class="max-w-lg"></div>
+                  </div>
+                </div>
+                <div class="p-4 mx-6 mb-12 -mt-24 bg-white sm:mx-12 rounded-2xl sm:p-8">
+                  <span class="text-sm">Burger au Poulet + Frite</span>
+                  <div class="flex items-end justify-between mt-6">
+                    <h1 class="text-6xl font-bold"> 9.70€ <span class="text-xl font-medium"><span class="text-gray-600"></span></span></h1>
+                  </div>
+                  <hr class="my-6">
+                  <button class="px-12 py-4 text-sm font-semibold bg-gray-900 rounded-xl text-gray-50 hover:bg-black">Pay now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#" id="openModalButton3" class="group">
+          <div class="h-72 w-full overflow-hidden rounded-lg bg-gray-200">
+            <img src="https://static.youmiam.com/images/recipe/1500x1000/burger-au-poisson-2456576?placeholder=web_recipe&sig=d724516951b9bb549114f1a32fc20e35c1d43d61&v2" alt="Hand holding black machined steel mechanical pencil with brass tip and top." class="h-full w-full object-cover object-center group-hover:opacity-75">
+          </div>
+          <h3 class="mt-4 text-sm text-gray-700">Fish Burger + Frite</h3>
+          <p class="mt-1 text-lg font-medium text-gray-900">8.90€</p>
+        </a>
+        <div id="myModal3" class="hidden fixed inset-0 overflow-y-auto">
+          <div class="flex items-center justify-center min-h-screen p-4">
+            <div class="relative bg-[#EBDEDE] py-12" style="width: 30rem;">
+              <div class="relative w-full max-w-4xl p-1 mx-auto bg-white border shadow-lg border-white/20 rounded-3xl">
+                <div class="pb-96 rounded-3xl" style="background-image: url('https://static.youmiam.com/images/recipe/1500x1000/burger-au-poisson-2456576?placeholder=web_recipe&sig=d724516951b9bb549114f1a32fc20e35c1d43d61&v2'); background-repeat: no-repeat; background-size: cover; height: 0rem;">
+                  <svg id="closeModalButton3" xmlns="http://www.w3.org/2000/svg" class="absolute w-10 h-10 p-2 text-gray-800 bg-gray-300 bg-opacity-50 rounded-full cursor-pointer top-5 right-5 " fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                  <div class="p-8 md:p-12 lg:px-24">
+                    <div class="max-w-lg"></div>
+                  </div>
+                </div>
+                <div class="p-4 mx-6 mb-12 -mt-24 bg-white sm:mx-12 rounded-2xl sm:p-8">
+                  <span class="text-sm">Fish Burger + Frite</span>
+                  <div class="flex items-end justify-between mt-6">
+                    <h1 class="text-6xl font-bold"> 8.90€ <span class="text-xl font-medium"><span class="text-gray-600"></span></span></h1>
+                  </div>
+                  <hr class="my-6">
+                  <button class="px-12 py-4 text-sm font-semibold bg-gray-900 rounded-xl text-gray-50 hover:bg-black">Pay now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- More products... -->
+      </div>
+    </div>
+  </div>
+  </main>
+<div id="footer"></div>
+<script>
+  const openModalButton = document.getElementById('openModalButton');
+  const closeModalButton = document.getElementById('closeModalButton');
+  const modal = document.getElementById('myModal');
+
+  const openModalButton1 = document.getElementById('openModalButton1');
+  const closeModalButton1 = document.getElementById('closeModalButton1');
+  const modal1 = document.getElementById('myModal1');
+
+  const openModalButton2 = document.getElementById('openModalButton2');
+  const closeModalButton2 = document.getElementById('closeModalButton2');
+  const modal2 = document.getElementById('myModal2');
+
+  const openModalButton3 = document.getElementById('openModalButton3');
+  const closeModalButton3 = document.getElementById('closeModalButton3');
+  const modal3 = document.getElementById('myModal3');
+
+  openModalButton.addEventListener('click', () => {
+      modal.classList.remove('hidden');
+  });
+  openModalButton1.addEventListener('click', () => {
+      modal1.classList.remove('hidden');
+  });
+  openModalButton2.addEventListener('click', () => {
+      modal2.classList.remove('hidden');
+  });
+  openModalButton3.addEventListener('click', () => {
+      modal3.classList.remove('hidden');
+  });
+
+  closeModalButton.addEventListener('click', () => {
+      modal.classList.add('hidden');
+  });
+  closeModalButton1.addEventListener('click', () => {
+      modal1.classList.add('hidden');
+  });
+  closeModalButton2.addEventListener('click', () => {
+      modal2.classList.add('hidden');
+  });
+  closeModalButton3.addEventListener('click', () => {
+      modal3.classList.add('hidden');
+  });
+
+  // Close modal if clicked outside the modal content
+  window.addEventListener('click', (event) => {
+      if (event.target === modal) {
+          modal.classList.add('hidden');
+      }
+  });
+  window.addEventListener('click', (event) => {
+      if (event.target === modal1) {
+          modal1.classList.add('hidden');
+      }
+  });
+  window.addEventListener('click', (event) => {
+      if (event.target === modal2) {
+          modal2.classList.add('hidden');
+      }
+  });
+  window.addEventListener('click', (event) => {
+      if (event.target === modal3) {
+          modal3.classList.add('hidden');
+      }
+  });
+</script>
+</body>
+</html>
