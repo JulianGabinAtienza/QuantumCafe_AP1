@@ -2,7 +2,7 @@
 *.pdf
 # Aucun docx ne vas être push
 *.docx
-
+# Private Image
 yann.jpg
 Julian.jpg
 othmane.jpg
