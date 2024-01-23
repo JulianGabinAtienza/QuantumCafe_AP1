@@ -1,2 +1,4 @@
+# Aucun pdf ne vas être push
 *.pdf
+# Aucun docx ne vas être push
 *.docx
