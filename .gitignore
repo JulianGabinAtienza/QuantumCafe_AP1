@@ -3,7 +3,6 @@
 # Aucun docx ne vas être push
 *.docx
 
-yann*.jpg
-Julian*.jpg
-othmane*.jpg
-
+yann.jpg
+Julian.jpg
+othmane.jpg
