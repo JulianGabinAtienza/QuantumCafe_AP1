@@ -12,15 +12,15 @@ AP-1 Création d’une entreprise virtuelle <br>
 ▪ La charte de graphique <br>
 --◦ Imaginez un slogan pour votre entreprise <br>
 --◦ Les produits, les solutions, ou les services proposés par votre entreprise <br>
---◦ Type d’organisme et son statut juridique : public, privé ou autre… / Statuts : SARL,  <br>SAS,  EURL, SA… <br>
---◦ Recherches : Conccurences, Étude de l'existant, Comparaison, Plus value, Faiblesses (exe :  <br>sous-effectif, sous dimenssionement des ressources humaines), <br>
+--◦ Type d’organisme et son statut juridique : public, privé ou autre… / Statuts : SARL, SAS,  EURL, SA… <br>
+--◦ Recherches : Conccurences, Étude de l'existant, Comparaison, Plus value, Faiblesses (exe : sous-effectif, sous dimenssionement des ressources humaines), <br>
 --◦ Faire un petit buisness plan. <br>
 --◦ Rôles : commercial, RH, technique, comptable, Directeur, président, etc.) <br>
 --◦ Fiche de poste, KBIS <br>
 --◦ Devis, facture, bon de command, calcul de budget (estimation prévisionnel) <br>
 • Préaparer des diapositives de présentation avec tous les élements créer au auparavant. <br>
 • Développement d’un site web pour votre entreprise [HTML+CSS+JS] (facultatif ) <br>
-1 © LessonSharing 2022 – All rights reserved <br>
+<br>
 • Référencer votre site sur les moteurs de recherches (SEO, LinkedIn...) <br>
 
 ![Capture d'écran 2024-01-24 173201](https://github.com/JulianGabinAtienza/QuantumCafe_AP1/assets/148321955/2978ceff-7f3d-4146-a364-614b58616ee9)
