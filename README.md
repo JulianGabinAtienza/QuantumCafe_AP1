@@ -32,5 +32,5 @@ Bienvenue sur le dépôt GitHub de QuantumCafé, le site internet d'une entrepri
 Pour lancer QuantumCafé localement, suivez ces étapes simples : <br>
  <br>
 1. Assurez-vous d'avoir [Visual Studio Code] installé sur votre machine. <br>
- <br>
+
 2. Installez [Live Server] sur [Visual Studio Code] et lancer le grâce au boutton "Go Live" <br>
