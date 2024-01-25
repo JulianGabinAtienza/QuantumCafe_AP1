@@ -1,3 +1,7 @@
+# QuantumCafé <br>
+Bienvenue sur le dépôt GitHub de QuantumCafé, le site internet d'une entreprise fictive créer <br> pour mon AP1 du BTS SIO SLAM <br>
+ <br>
+
 AP-1 Création d’une entreprise virtuelle <br>
 (Septembre – Février (1ère année de BTS)) <br>
  <br>
@@ -25,9 +29,6 @@ AP-1 Création d’une entreprise virtuelle <br>
 
 ![Capture d'écran 2024-01-24 173201](https://github.com/JulianGabinAtienza/QuantumCafe_AP1/assets/148321955/2978ceff-7f3d-4146-a364-614b58616ee9)
 
-# QuantumCafé <br>
-Bienvenue sur le dépôt GitHub de QuantumCafé, le site internet d'une entreprise fictive créer <br> pour mon AP1 du BTS SIO SLAM <br>
- <br>
 ## Comment démarrer <br>
 Pour lancer QuantumCafé localement, suivez ces étapes simples : <br>
  <br>
