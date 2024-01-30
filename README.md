@@ -1,11 +1,10 @@
 # QuantumCafé <br>
 Bienvenue sur le dépôt GitHub de QuantumCafé, le site internet d'une entreprise fictive créer <br> pour mon AP1 du BTS SIO SLAM <br>
- <br>
 
 AP-1 Création d’une entreprise virtuelle <br>
-(Septembre – Février (1ère année de BTS)) <br>
+(Septembre – Février (1ère année de BTS)) 
  <br>
-### Outils : <br>
+### Outils :
  <br>
 • Travail collaboratif depuis un Trello, Google Drive, Teams, Slack, Jira… <br>
 • Objectifs : <br>
@@ -24,10 +23,25 @@ AP-1 Création d’une entreprise virtuelle <br>
 --◦ Devis, facture, bon de command, calcul de budget (estimation prévisionnel) <br>
 • Préaparer des diapositives de présentation avec tous les élements créer au auparavant. <br>
 • Développement d’un site web pour votre entreprise [HTML+CSS+JS] (facultatif ) <br>
-<br>
 • Référencer votre site sur les moteurs de recherches (SEO, LinkedIn...) <br>
+<br>
 
-![Capture d'écran 2024-01-24 173201](https://github.com/JulianGabinAtienza/QuantumCafe_AP1/assets/148321955/2978ceff-7f3d-4146-a364-614b58616ee9)
+## Ascpect du Site <br>
+![Alt text](ReadMe_Image/homepage.png)
+![Alt text](ReadMe_Image/servicepage.png)
+![Alt text](ReadMe_Image/productpage.png)
+![Alt text](ReadMe_Image/drinkpage.png)
+![Alt text](ReadMe_Image/coffepage.png)
+![Alt text](ReadMe_Image/teapage.png)
+![Alt text](ReadMe_Image/bubbleteapage.png)
+![Alt text](ReadMe_Image/sodapage.png)
+![Alt text](ReadMe_Image/foodpage.png)
+![Alt text](ReadMe_Image/pizzapage.png)
+![Alt text](ReadMe_Image/burgerpage.png)
+![Alt text](ReadMe_Image/paninipage.png)
+![Alt text](ReadMe_Image/saladepage.png)
+![Alt text](ReadMe_Image/gamepage.png)
+![Alt text](ReadMe_Image/singinpage.png)
 
 ## Comment démarrer <br>
 Pour lancer QuantumCafé localement, suivez ces étapes simples : <br>
